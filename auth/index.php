@@ -1,6 +1,6 @@
 <?php
 ini_set('display_errors', '1');
-$config = include("/res/config.php");
+$config = include("../res/config.php");
 $mysql = mysqli_connect($config['host'], $config['username'], $config['password'], $config['db']);
 
 $username = mysqli_real_escape_string($mysql, $_GET['username']);
