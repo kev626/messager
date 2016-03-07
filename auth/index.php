@@ -12,6 +12,6 @@ $rows = mysqli_num_rows($result);
 if ($rows == 0) {
 	echo "0";
 } else {
-	echo "1";
+	echo "aow3ubealawwi3ublaiCORRECT";
 }
 ?>
